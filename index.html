@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <h1>Temperature Convertor </h1>
+    <div id="container">
+      <form action="">
+        <div id="select_box">
+          <select name="" id="select">
+            <option value="area">Area</option>
+            <option value="transfer">Data Transfer Rate</option>
+            <option value="storage">Digital Storage</option>
+            <option value="energy">Energy</option>
+            <option value="frequency">Frequency</option>
+            <option value="length">length</option>
+            <option value="temp" selected>Temperature</option>
+            <option value="speed">Speed</option>
+          </select>
+        </div>
+
+        <div id="box">
+          <div>
+            <input type="text" id="text1" value="0" />
+            <select name="" id="">
+              <option value="celsius">Degree Celsius</option>
+              <option value="fahr">Fahrenheit</option>
+              <option value="kelvin">kelvin</option>
+            </select>
+          </div>
+          <span id="equal">=</span>
+          <div>
+            <input type="text" id="text2" value="32" />
+            <select name="" id="">
+              <option value="celsius">Degree Celsius</option>
+              <option value="fahr" selected>Fahrenheit</option>
+              <option value="kelvin">kelvin</option>
+            </select>
+          </div>
+
+        </div>
+    
+
+      </form>
+      <div id="info">
+        <span><mark>Formula</mark></span>
+        <span>(0°F − 32) × 5/9 = -17.78°C
+      </div>
+      
+    </span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

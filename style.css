@@ -1,0 +1,58 @@
+h1{
+    padding-left:40%;
+}
+
+#container {
+    width:800px;
+    height:250px;
+    border:2px solid black;
+    margin:0px 380px;
+    background-color: #3969FF;
+    
+    color:#ffffff;
+}
+
+#select_box{
+    padding:20px;
+   
+}
+
+#select{
+    width:60%;
+    padding:10px;
+    background-color:#8be6e9;
+    color:#1a292a;
+}
+
+#box {
+    display:flex;
+    padding:10px;
+    
+}
+
+#box div{
+    display:flex;
+    flex-direction: column;
+    width:27.3%;
+    padding:0px 10px;
+    
+    
+}
+
+#box>div>input,#box>div>select{
+    padding:10px;
+    background-color:#8be6e9;
+}
+
+#box>div>input{
+    background-color:#2b4849;
+    color:white;
+}
+
+#equal{
+    padding-top: 30px;
+}
+
+#info{
+    padding: 20px;
+}
